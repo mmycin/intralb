@@ -1,0 +1,42 @@
+name: 💡 Feature Request
+description: Suggest a new idea or improvement
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! Tell us how we can improve IntraLB.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Clearly explain the feature you want to see added.
+      placeholder: "I’d like IntraLB to support graceful worker draining..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case / Problem Solved
+      description: Why is this feature useful? What does it solve?
+      placeholder: "We need this for smooth service upgrades in production..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Are there any existing solutions or workarounds?
+      placeholder: "Right now we're doing X manually..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Context or Mockups
+      description: Add diagrams, links, or related info (if any)
+      placeholder: Optional

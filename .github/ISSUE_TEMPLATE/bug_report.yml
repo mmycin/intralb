@@ -1,0 +1,67 @@
+name: 🐛 Bug Report
+description: Report a reproducible bug in IntraLB
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please provide as much detail as possible.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: "What happened?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Provide steps to reproduce the bug.
+      placeholder: |
+        1. Start server
+        2. Send request to `/example`
+        3. Observe panic or error
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: IntraLB Version
+      placeholder: "e.g. v0.3.1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Go version, framework used, etc.
+      placeholder: |
+        - OS: Ubuntu 22.04
+        - Go: 1.22
+        - Router: chi/v5
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Stack Trace
+      description: Include relevant logs or panic traces
+      placeholder: |
+        panic: context deadline exceeded
+        ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Anything else we should know?
+      placeholder: Optional

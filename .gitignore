@@ -1,0 +1,71 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, coverage files
+*.test
+*.out
+coverage.out
+
+# Output of the go coverage tool
+*.coverprofile
+
+# Dependency directories (remove if using Go Modules properly)
+vendor/
+
+# Go build cache
+bin/
+_build/
+pkg/
+
+# Go modules
+go.sum
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Environment files
+.env
+
+# JetBrains Rider IDE folders
+.idea/
+
+# GoLand specific files
+*.iml
+
+# JetBrains metadata
+.idea/
+
+# Generated files (if any)
+generated/
+
+# Coverage reports
+coverage/
+
+# Local config files
+*.local
+
+# Other OS temp files
+*.bak
+*.old
