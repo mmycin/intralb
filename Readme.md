@@ -1,4 +1,4 @@
-# 🚦 IntraLB - Intelligent Load Balancer for Go HTTP Services
+# IntraLB - Intelligent Load Balancer for Go HTTP Services
 
 > **IntraLB** is a lightweight, intra-process load balancer built for Go HTTP servers. It offers intelligent request routing, worker-based concurrency, graceful shutdowns, and database safety with a developer-friendly interface.
 
